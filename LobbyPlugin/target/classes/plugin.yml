@@ -12,3 +12,5 @@ commands:
   coin_giveaway:
     aliases: [c_g, c_giveaway]
     description: k
+  vote:
+    description: Vote command. Usage: /vote start colum_1 coloum_2 duration

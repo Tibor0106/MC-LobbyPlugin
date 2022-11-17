@@ -25,7 +25,7 @@ public class join_message_manager implements Listener {
         }
         if (counter > 20){
             if (p.hasPermission("lobby.admin"))
-            p.sendMessage("§cPlase remove one line, because max line count be like 20.");
+            p.sendMessage("§cPlease remove one line, because max line count be like 20.");
             return;
         }
         //check enbaled
@@ -33,7 +33,7 @@ public class join_message_manager implements Listener {
         try{
             check = plugin.getConfig().getBoolean("join-message-enable");
         }catch (Exception eg){
-            p.sendMessage("§cPlase check the config.yml file, because detect error.");
+            p.sendMessage("§cPlease check the config.yml file, because detect error.");
 
         }
         if (!check){
