@@ -1,0 +1,14 @@
+name: Lobbyplugin
+version: 1.2
+main: lobbyplugin.lobbyplugin.Lobbyplugin
+author: Jack122
+description: Lobby plugin
+commands:
+  lobbyplugin:
+    aliases: [lby, lobbyp]
+  coin:
+    description: /coin set | add | send | check_history
+
+  coin_giveaway:
+    aliases: [c_g, c_giveaway]
+    description: k

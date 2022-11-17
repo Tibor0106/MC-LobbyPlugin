@@ -1,0 +1,13 @@
+################################################################
+#  LobbyPlugin
+#  Author: Jack122
+#  Logs??:
+prefix: '&7&l[&c§lLOBBY§7§l]'
+
+##Coin manager
+##Only database
+db_username: "root"
+db_password: ""
+db_address: "localhost"
+db_table:  "minecraft"
+db_port: 3306
